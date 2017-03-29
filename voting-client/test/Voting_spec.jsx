@@ -9,7 +9,7 @@ import
 import { expect } from 'chai';
 import { List } from 'immutable';
 
-import voting from '../../src/components/Voting';
+import voting from '../../voting-client/src/components/Voting';
 
 describe('voting', () => {
 
