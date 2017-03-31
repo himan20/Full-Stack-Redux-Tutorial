@@ -9,7 +9,7 @@ import
 import { expect } from 'chai';
 import { List } from 'immutable';
 
-import voting from '../../voting-client/src/components/Voting';
+import Voting from '../../voting-client/src/components/Voting';
 
 describe('voting', () => {
 
@@ -21,7 +21,7 @@ describe('voting', () => {
 
         expect(buttons.length).to.equal(2);
         expect(buttons[0].textContent).to.equal('Trainspotting');
-        expect(buttons[0].textContent).to.equal('28 Days Later');
+        expect(buttons[1].textContent).to.equal('28 Days Later');
     });
 
     it('invokes callback when a button is clicked', () => {
